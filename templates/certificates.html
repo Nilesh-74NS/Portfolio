@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}Certificates{% endblock %}
+
+{% block content %}
+
+<h1 class="text-center mb-5">
+    My <span class="text-info">Certificates</span>
+</h1>
+
+<div class="row justify-content-center">
+
+    <div class="col-md-5">
+
+        <div class="card shadow border-0">
+
+            <img src="{{ url_for('static', filename='images/cir1.jpg') }}"
+                 class="card-img-top"
+                 alt="Certificate">
+
+            <div class="card-body text-center">
+
+                <h5 class="card-title">
+                    Android Development
+                </h5>
+
+                <p class="card-text">
+                    Issued by Sumago Infotech Pvt. Ltd.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}

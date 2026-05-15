@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<div class="row align-items-center g-5">
+
+    <div class="col-lg-5 text-center">
+        <img src="{{ url_for('static', filename='images/profile-image.jpg') }}"
+             class="img-fluid rounded-circle shadow profile-img"
+             alt="Nilesh Sonavane">
+    </div>
+
+    <div class="col-lg-7">
+
+        <h5>Hello, I'm</h5>
+
+        <h1 class="display-4 fw-bold">Nilesh Sonavane</h1>
+
+        <h3 class="mb-3">
+            I'm a <span class="text-info">Student</span>
+        </h3>
+
+        <p class="lead">
+            I am currently pursuing my degree in Computer Engineering.
+        </p>
+
+        <div class="social-icons my-4">
+
+            <a href="#" class="me-3 text-dark fs-3">
+                <i class='bx bxl-facebook-circle'></i>
+            </a>
+
+            <a href="#" class="me-3 text-dark fs-3">
+                <i class='bx bxl-twitter'></i>
+            </a>
+
+            <a href="https://www.instagram.com/_nilesh_0950/" target="_blank" class="me-3 text-dark fs-3">
+                <i class='bx bxl-instagram'></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/nilesh-sonavane-8631223a6/" target="_blank" class="text-dark fs-3">
+                <i class='bx bxl-linkedin-square'></i>
+            </a>
+
+        </div>
+
+        <div>
+            <button class="btn btn-info me-3">Hire Me</button>
+            <a href="/contact" class="btn btn-outline-dark">Contact Me</a>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
