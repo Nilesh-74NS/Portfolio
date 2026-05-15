@@ -186,28 +186,46 @@ body{
 }
 
 /* ============================= */
-/*        CONTACT FORM           */
+/*       CONTACT SECTION         */
 /* ============================= */
 
-.form-control{
-    background-color: #162032;
-    border: 2px solid transparent;
-    color: var(--white);
-    padding: 14px;
+.contact-card{
+    background: linear-gradient(
+        145deg,
+        #111827,
+        #162032
+    );
+    border-radius: 20px;
 }
 
-.form-control:focus{
-    background-color: #162032;
-    color: var(--white);
-    border-color: var(--main-color);
-    box-shadow: none;
+.custom-input{
+    background-color: #1b2940 !important;
+    border: 2px solid transparent !important;
+    color: white !important;
+    padding: 15px !important;
+    border-radius: 10px !important;
 }
 
-.form-control::placeholder{
-    color: #bfc7d5;
-    opacity: 0.7;
+.custom-input:focus{
+    border-color: #00d4ff !important;
+    box-shadow: none !important;
+    background-color: #1b2940 !important;
 }
 
+.custom-input::placeholder{
+    color: #b8c2d0;
+}
+
+.send-btn{
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.send-btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,212,255,0.3);
+}
 /* ============================= */
 /*          FOOTER               */
 /* ============================= */
