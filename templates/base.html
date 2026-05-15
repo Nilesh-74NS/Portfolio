@@ -14,7 +14,7 @@
 </head>
 <body>
 
-    <!-- Navbar Start -->
+    <!-- Navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
         <div class="container">
@@ -29,7 +29,7 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
 
-                <ul class="navbar-nav ms-auto align-items-lg-center">
+                <ul class="navbar-nav ms-auto">
 
                     <li class="nav-item">
                         <a class="nav-link" href="/">Home</a>
@@ -47,13 +47,22 @@
                         <a class="nav-link" href="/contact">Contact</a>
                     </li>
 
-                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
-                        <a href="/static/Resume-Nilesh.pdf" download class="btn btn-info">
-                            Download CV
-                            <i class='bx bxs-download'></i>
-                        </a>
-                    </li>
-
                 </ul>
+
             </div>
+        </div>
+    </nav>
+
+    <!-- IMPORTANT PART -->
+
+    <div class="container mt-5 pt-5">
+
+        {% block content %}
+        {% endblock %}
+
+    </div>
+
+</body>
+
+
 </html>
