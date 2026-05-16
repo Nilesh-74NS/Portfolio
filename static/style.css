@@ -293,3 +293,40 @@ footer{
         font-size: 24px;
     }
 }
+
+/* ============================= */
+/*         SKILLS SECTION        */
+/* ============================= */
+
+.skill-card{
+    background: linear-gradient(
+        145deg,
+        #111827,
+        #162032
+    );
+    border-radius: 20px;
+    transition: 0.4s;
+    color: white;
+}
+
+.skill-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+}
+
+.skill-icon{
+    font-size: 60px;
+    color: #00d4ff;
+}
+
+.progress{
+    height: 12px;
+    background-color: #0d1525;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar{
+    font-size: 12px;
+    font-weight: 600;
+}

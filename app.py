@@ -31,6 +31,10 @@ def education():
 def certificates():
     return render_template('certificates.html')
 
+@app.route('/skills')
+def skills():
+    return render_template('skills.html')
+
 @app.route('/contact')
 def contact():
     return render_template('contact.html')
