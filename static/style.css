@@ -330,3 +330,21 @@ footer{
     font-size: 12px;
     font-weight: 600;
 }
+
+/* ============================= */
+/*         PHONE ICON            */ 
+/* ============================= */
+.phone-icon{
+    text-decoration: none;
+}
+
+.phone-icon i{
+    font-size: 28px;
+    color: #00d4ff;
+    transition: 0.3s;
+}
+
+.phone-icon:hover i{
+    color: white;
+    transform: translateY(-5px);
+}
