@@ -66,7 +66,7 @@ Message:
 
     mail.send(msg)
 
-    return "Message Sent Successfully"
+    return render_template('contact.html', success=True)
 
 # =========================
 # Run App

@@ -28,6 +28,22 @@ Contact
                     </p>
                     
                     
+                    <!-- Success Message -->
+                    {% if success %}
+
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+
+                        Message Sent Successfully!
+
+                        <button type="button"
+                                class="btn-close"
+                                data-bs-dismiss="alert">
+                        </button>
+
+                    </div>
+
+                    {% endif %}
+
                     <!-- Contact Form -->
 
                     <form action="/send" method="POST">
